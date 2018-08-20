@@ -79,7 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <span style="color : red ;font-family:monospace">error : 404</span>
+                    <script>var time = new Date();
+                        console.log(time);
+                        document.getElementsByTagName('span').innerHtml = time;
+                    </script>
+                    <span style="color : red ;font-family:monospace">error : 405</span>
                 </div>
 
                 <div class="links">
